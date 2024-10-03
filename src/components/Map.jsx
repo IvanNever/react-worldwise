@@ -13,6 +13,7 @@ import { useCities } from "../contexts/CitiesContext.jsx";
 import { flagEmojiToPNG } from "../utils/flagEmojiToPNG.jsx";
 import { useGeolocation } from "../hooks/useGeolocation.js";
 import Button from "./Button.jsx";
+import { useUrlPosition } from "../hooks/useUrlPosition.js";
 
 function ChangeCenter({ position }) {
   const map = useMap();
@@ -23,21 +24,18 @@ function ChangeCenter({ position }) {
 function DetectClick() {
   const navigate = useNavigate();
   useMapEvents({
-    click: (e) => navigate(`form?lat=${e.latlng.lat}&lat=${e.latlng.lng}`),
+    click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
 }
 export default function Map() {
   const { cities } = useCities();
   const [position, setPosition] = useState([50, 15]);
-  const [searchParams] = useSearchParams();
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
-
-  const lat = Number(searchParams.get("lat"));
-  const lng = Number(searchParams.get("lng"));
+  const { lat, lng } = useUrlPosition();
 
   useEffect(() => {
     if (lat && lng) {

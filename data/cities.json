@@ -1,40 +1,292 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "id": "cf76",
+      "cityName": "Kyiv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T10:43:39.854Z",
+      "notes": "test",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
+        "lat": 50.440014664018136,
+        "lng": 30.525512695312504
+      }
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "id": "9add",
+      "cityName": "Chernihiv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T10:48:51.856Z",
+      "notes": "desna city",
+      "position": {
+        "lat": 51.50874245880335,
+        "lng": 31.3824462890625
+      }
+    },
+    {
+      "id": "9955",
+      "cityName": "Zhytomyr",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T10:53:28.285Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
+        "lat": 50.25071752130677,
+        "lng": 28.674316406250004
+      }
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": "31e4",
+      "cityName": "Odesa",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T10:57:36.490Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
+        "lat": 46.46813299215556,
+        "lng": 30.745239257812504
+      }
+    },
+    {
+      "id": "4fd8",
+      "cityName": "Zaporizhzhya",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:09:02.501Z",
+      "notes": "",
+      "position": {
+        "lat": 47.838970656475674,
+        "lng": 35.13427734375001
+      }
+    },
+    {
+      "id": "2af6",
+      "cityName": "Nikopol",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:09:19.870Z",
+      "notes": "",
+      "position": {
+        "lat": 47.56633400505088,
+        "lng": 34.39682006835938
+      }
+    },
+    {
+      "id": "d90b",
+      "cityName": "Enerhodar",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:09:24.849Z",
+      "notes": "",
+      "position": {
+        "lat": 47.489368981370724,
+        "lng": 34.68246459960938
+      }
+    },
+    {
+      "id": "c572",
+      "cityName": "Berdyansk",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:09:33.354Z",
+      "notes": "",
+      "position": {
+        "lat": 46.76620587423741,
+        "lng": 36.80419921875001
+      }
+    },
+    {
+      "id": "9261",
+      "cityName": "Dnipro",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:09:38.206Z",
+      "notes": "",
+      "position": {
+        "lat": 48.44377831058805,
+        "lng": 35.05187988281251
+      }
+    },
+    {
+      "id": "e197",
+      "cityName": "Kharkiv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:09:43.036Z",
+      "notes": "",
+      "position": {
+        "lat": 49.9759551873433,
+        "lng": 36.24389648437501
+      }
+    },
+    {
+      "id": "6089",
+      "cityName": "Cherkasy",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:09:50.687Z",
+      "notes": "",
+      "position": {
+        "lat": 49.42884000063522,
+        "lng": 32.06909179687501
+      }
+    },
+    {
+      "id": "ca02",
+      "cityName": "Bakhchysarai",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:10:08.463Z",
+      "notes": "",
+      "position": {
+        "lat": 44.75453548416007,
+        "lng": 33.85437011718751
+      }
+    },
+    {
+      "id": "385e",
+      "cityName": "Sevastopol",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:10:22.374Z",
+      "notes": "",
+      "position": {
+        "lat": 44.60024615241099,
+        "lng": 33.51654052734376
+      }
+    },
+    {
+      "id": "c1d1",
+      "cityName": "Sudak",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:10:42.220Z",
+      "notes": "",
+      "position": {
+        "lat": 44.84515927771909,
+        "lng": 34.971542358398445
+      }
+    },
+    {
+      "id": "9de8",
+      "cityName": "Feodosiya",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:10:50.110Z",
+      "notes": "",
+      "position": {
+        "lat": 44.91133174781212,
+        "lng": 35.18680572509766
+      }
+    },
+    {
+      "id": "3912",
+      "cityName": "Yalta",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:11:03.782Z",
+      "notes": "",
+      "position": {
+        "lat": 44.494546179900304,
+        "lng": 34.16061401367188
+      }
+    },
+    {
+      "id": "0235",
+      "cityName": "Saint Petersburg",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2024-10-03T12:11:47.275Z",
+      "notes": "",
+      "position": {
+        "lat": 59.92474296688904,
+        "lng": 30.355224609375004
+      }
+    },
+    {
+      "id": "1595",
+      "cityName": "Kemer",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2024-10-03T12:12:17.395Z",
+      "notes": "",
+      "position": {
+        "lat": 36.72285621556459,
+        "lng": 30.561733245849613
+      }
+    },
+    {
+      "id": "0b4d",
+      "cityName": "Alanya",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2024-10-03T12:12:41.057Z",
+      "notes": "",
+      "position": {
+        "lat": 36.5615659339723,
+        "lng": 31.93438053131104
+      }
+    },
+    {
+      "id": "fba4",
+      "cityName": "Nadvirna",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:13:39.565Z",
+      "notes": "",
+      "position": {
+        "lat": 48.35670530140269,
+        "lng": 24.408531188964844
+      }
+    },
+    {
+      "id": "9964",
+      "cityName": "Korosten",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:13:56.575Z",
+      "notes": "",
+      "position": {
+        "lat": 50.94458443495011,
+        "lng": 28.646850585937504
+      }
+    },
+    {
+      "id": "b1c1",
+      "cityName": "Nizhyn",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:14:06.685Z",
+      "notes": "",
+      "position": {
+        "lat": 51.17417731875822,
+        "lng": 32.84912109375001
+      }
+    },
+    {
+      "id": "679d",
+      "cityName": "Kyrylivka",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:15:18.019Z",
+      "notes": "",
+      "position": {
+        "lat": 46.368726551838876,
+        "lng": 35.364303588867195
+      }
+    },
+    {
+      "id": "b855",
+      "cityName": "Kakhovka",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2024-10-03T12:15:32.456Z",
+      "notes": "",
+      "position": {
+        "lat": 46.45015858941525,
+        "lng": 33.87771606445313
+      }
     }
   ]
 }
