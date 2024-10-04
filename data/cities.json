@@ -241,30 +241,6 @@
       }
     },
     {
-      "id": "9964",
-      "cityName": "Korosten",
-      "country": "Ukraine",
-      "emoji": "🇺🇦",
-      "date": "2024-10-03T12:13:56.575Z",
-      "notes": "",
-      "position": {
-        "lat": 50.94458443495011,
-        "lng": 28.646850585937504
-      }
-    },
-    {
-      "id": "b1c1",
-      "cityName": "Nizhyn",
-      "country": "Ukraine",
-      "emoji": "🇺🇦",
-      "date": "2024-10-03T12:14:06.685Z",
-      "notes": "",
-      "position": {
-        "lat": 51.17417731875822,
-        "lng": 32.84912109375001
-      }
-    },
-    {
       "id": "679d",
       "cityName": "Kyrylivka",
       "country": "Ukraine",
@@ -274,18 +250,6 @@
       "position": {
         "lat": 46.368726551838876,
         "lng": 35.364303588867195
-      }
-    },
-    {
-      "id": "b855",
-      "cityName": "Kakhovka",
-      "country": "Ukraine",
-      "emoji": "🇺🇦",
-      "date": "2024-10-03T12:15:32.456Z",
-      "notes": "",
-      "position": {
-        "lat": 46.45015858941525,
-        "lng": 33.87771606445313
       }
     }
   ]
